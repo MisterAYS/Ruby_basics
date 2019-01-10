@@ -61,7 +61,7 @@ def partiededes			# Regroupement des méthodes
 end
 
 
-def statistic #lance 100 parties, et compte le nombre de lancage
+def average_finish_time #lance 100 parties, et compte le nombre de lancage
     a = []
     for i in (1..100) do 
         partiededes
@@ -74,7 +74,7 @@ end
 
 
 
-statistic
+average_finish_time
 
 
 
